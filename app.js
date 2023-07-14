@@ -1,24 +1,21 @@
 // start javaScript code
 let userInput = document.getElementById("date");
+let answer = document.getElementById("answer");
 
 function calculatAge(){
   let birthDate = new Date (userInput.value);
   
-  let ms1 = birthDate.getMilliseconds();
-  let s1 = birthDate.getSeconds();
   let d1 = birthDate.getDate();
   let m1 = birthDate.getMonth() + 1;
   let y1 = birthDate.getFullYear();
 
   let today = new Date();
 
-  let ms2 = birthDate.getMilliseconds();
-  let s2 = birthDate.getSeconds();
   let d2 = birthDate.getDate();
   let m2 = birthDate.getMonth() + 1;
   let y2 = birthDate.getFullYear();
 
-  let ms3 , s3 , d3 , m3 , y3 ;
+  let d3 , m3 , y3 ;
   y3 = y2 - y1;
 
   if (m2 >= m1){
@@ -41,7 +38,7 @@ function calculatAge(){
     y3--;
   }
 
-  return document.getElementById("answer").innerHTML = birthDate;
+   answer.innerHTML = `You are ${y3} years , ${m3} months and ${d3} days old`;
 
 
   function getDaysInMonth(year,month){
