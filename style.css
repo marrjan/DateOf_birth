@@ -38,13 +38,11 @@ h1{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
-  font-family: poppins;
   -webkit-text-stroke: 1px #fff;
   color: transparent;
   background-image: linear-gradient(#fff, #fff);
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   background-position: -1700px 0;
   animation: text 5s linear infinite alternate;
   
@@ -55,6 +53,7 @@ h1{
       background-position: 0 0;
   }
 }
+
 /* COLCULATOR START */
 .calculator{
   border: 3px solid #fff;
