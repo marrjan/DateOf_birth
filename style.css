@@ -38,6 +38,7 @@ h1{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  
   font-family: poppins;
   -webkit-text-stroke: 1px #fff;
   color: transparent;
@@ -54,3 +55,12 @@ h1{
       background-position: 0 0;
   }
 }
+/* COLCULATOR START */
+.calculator{
+  border: 3px solid #fff;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
