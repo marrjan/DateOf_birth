@@ -90,5 +90,7 @@ h1{
   outline: 0;
   padding: 10px 19px;
   border-radius: 7px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
