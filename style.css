@@ -1,0 +1,56 @@
+/* CSS START */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body{
+  background: linear-gradient(to right,#6bb3e2,#e26bba);
+  background-size: 400% 400%;
+  animation: backgroundColor 3s infinite  ;
+}
+
+@keyframes backgroundColor {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+
+}
+}
+
+/* CONTAINER */
+.container{
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  padding: 10px;
+}
+
+h1{
+  font-size: 2.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -1700px 0;
+  animation: text 5s linear infinite alternate;
+  
+}
+/* Keyframe text Start */
+@keyframes text{
+  100%{
+      background-position: 0 0;
+  }
+}
