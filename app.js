@@ -1,8 +1,10 @@
 // start javaScript code
 let userInput = document.getElementById("date");
-userInput.max = new Date().toISOString().split("T")[0];
+
 let answer = document.getElementById("answer");
 
+
+// FUNCTION CALCULATAGE
 function calculatAge(){
   let birthDate = new Date (userInput.value);
   
@@ -45,5 +47,6 @@ function calculatAge(){
   function getDaysInMonth(year,month){
     return new Date (year , month, 0).getDate();
   }
+
 
 }
