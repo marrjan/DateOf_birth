@@ -19,7 +19,7 @@ function calculatAge(){
 
   let d3 , m3 , y3 ;
   y3 = y2 - y1;
-
+// IF ELSE START
   if (m2 >= m1){
     m3 = m2 - m1;
   }
@@ -39,6 +39,7 @@ function calculatAge(){
     m3 = 11;
     y3--;
   }
-
+  
    answer.innerHTML = `You are ${y3} years , ${m3} months and ${d3} days old`;
 }
+// javaScript code end

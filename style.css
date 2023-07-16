@@ -11,7 +11,7 @@ body{
   background-size: 400% 400%;
   animation: backgroundColor 3s infinite  ;
 }
-
+/* keyframe body */
 @keyframes backgroundColor {
   0%{
     background-position: 0% 50%;
@@ -62,7 +62,7 @@ h1{
   margin-left: 150px;
   margin-right: 150px;
 }
-
+/* input property */
 .input-box{
   display: flex;
   align-items: center;
