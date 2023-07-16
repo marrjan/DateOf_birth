@@ -3,7 +3,6 @@ let userInput = document.getElementById("date");
 
 let answer = document.getElementById("answer");
 
-
 // FUNCTION CALCULATAGE
 function calculatAge(){
   let birthDate = new Date (userInput.value);
@@ -42,11 +41,4 @@ function calculatAge(){
   }
 
    answer.innerHTML = `You are ${y3} years , ${m3} months and ${d3} days old`;
-
-
-  function getDaysInMonth(year,month){
-    return new Date (year , month, 0).getDate();
-  }
-
-
 }
